@@ -1,60 +1,65 @@
 body {
-	font-family: georgia; 
-	background-color: #CAD683;
+    font-family: georgia; 
+    background-color: #3AAFA9;
 }
 
 h1 {
-	font-size: 36px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: center;
-    text-shadow: 2px 2px 3px black;
+    font-size: 48px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto; 
+   text-align: center;
+   text-shadow: 2px 2px 3px black;
+   color: #2b7a78;
 }
 
-    .card {
-        width: 100%;
-        position: relative;
-        display: inline-block;
-    }
-    .card .img-top {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .card:hover .img-top {
-        display: inline;
-    }
+.card {
+   width: 100%;
+   position: relative;
+   display: inline-block;
+}
+    
+.card .img-top {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 99;
+}
+
+.card:hover .img-top {
+   display: inline;
+}
 
 .column {
-	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 500px;
-    background-color: white;
-    border-left: solid #E7709E 12px;
-    border-right: solid #E7709E 12px;
-    padding: 5%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+   margin-bottom: 3%; 
+   width: 500px;
+   background-color: white;
+   border: solid #E8A87C 12px;
+   padding: 5%;
+   box-shadow: 4px 6px 20px 20px black;
 }
 
 .column p {
-	padding: 0 40px;
+    padding: 0 40px;
 }
 
 p {
 }
 
 .mw-headline {
-	padding: 0 40px;
+    padding: 0 40px;
 }
 
 img {
-	max-width: 100%;
-	max-height: 100%;	
+    max-width: 100%;
+    max-height: 100%;   
 }
 
 a:link {
-	text-decoration: underline;
+    text-decoration: underline;
 }
