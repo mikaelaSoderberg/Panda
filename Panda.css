@@ -6,11 +6,11 @@ body {
 h1 {
 	font-size: 48px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: center;
-    text-shadow: 2px 2px 3px black;
-    color: #2b7a78;
+   margin-left: auto;
+   margin-right: auto; 
+   text-align: center;
+   text-shadow: 2px 2px 3px black;
+   color: #2b7a78;
 }
 
 .card {
@@ -32,14 +32,16 @@ h1 {
 }
 
 .column {
-	display: block;
+   display: block;
    margin-left: auto;
-   margin-right: auto; 
+   margin-right: auto;
+   margin-top: 5%;
+   margin-bottom: 3%; 
    width: 500px;
    background-color: white;
-   border-left: solid #E8A87C 12px;
-   border-right: solid #E8A87C 12px;
+   border: solid #E8A87C 12px;
    padding: 5%;
+   box-shadow: 4px 6px 20px 20px black;
 }
 
 .column p {
