@@ -62,6 +62,7 @@ h1 {
    border: solid #E8A87C 12px;
    padding: 5%;
    box-shadow: 4px 6px 20px 20px black;
+   border-radius: 25px;
 }
 
 .column p {
