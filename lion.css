@@ -3,6 +3,10 @@ body {
     background-color: #3AAFA9;
 }
 
+.module {
+  cursor: url('lion_emoji.png'), auto;   
+}
+
 h1 {
     font-size: 48px;
     display: block;
