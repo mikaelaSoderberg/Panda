@@ -1,0 +1,60 @@
+body {
+	font-family: georgia; 
+	background-color: #CAD683;
+}
+
+h1 {
+	font-size: 36px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+    .card {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+
+.column {
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 500px;
+    background-color: white;
+    border-left: solid #E7709E 12px;
+    border-right: solid #E7709E 12px;
+    padding: 5%;
+}
+
+.column p {
+	padding: 0 40px;
+}
+
+p {
+}
+
+.mw-headline {
+	padding: 0 40px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;	
+}
+
+a:link {
+	text-decoration: underline;
+}
